@@ -80,3 +80,8 @@ azimuth_bins_ = 12 （转动角[0,360]，相当于每30°一个划分）
 // volume_lut stand for volume look up table
 volume_lut_ = (radius_bins_ * elevation_bins_ * azimuth_bins_)
 若转换成3-d张量应该是这个结构：volume_lut_[elevation_bins_][radius_bins_][azimuth_bins_]
+
+
+关于角度与弧度的转换
+rad2deg, deg2rad
+都可用用乘法实现！
