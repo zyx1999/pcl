@@ -1,0 +1,7 @@
+pcl::BoundaryEstimation<pcl::PointXYZ,pcl::Normal,pcl::Boundary> bound_est;
+bound_est.setInputCloud(cloud);
+bound_est.setInputNormals(normals);
+bound_est.setRadiusSearch(readius);
+bound_est.setAngleThreshold(angle_threhsold);
+bound_est.setSearchMethod(tree);
+bound_est.compute(*output)
