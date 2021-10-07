@@ -1,0 +1,1 @@
+该类基于源码和文献BRISK: Binary Robust Invariant Scalable Keypoints，实现了BRISK-descriptor的相关算法
