@@ -1,0 +1,5 @@
+工程模板：
+	方便大家管理分析过程中的碎片
+
+1_ShapeContext3DEstimation：
+	一个PCL算子的样例
