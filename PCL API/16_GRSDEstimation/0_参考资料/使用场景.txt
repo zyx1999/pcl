@@ -1,0 +1,6 @@
+pcl::PointCloud<pcl::PointOutT>::Ptr output (new pcl::PointCloud<pcl::PointOutT>());
+pcl::GRSDEstimation<PointInT, PointNT, pcl::PointOutT> grsd;
+grsd.setInputCloud (cloud);
+grsd.setSearchSurface (surface);
+grsd.setInputNormals (normals);
+grsd.compute (*output);
