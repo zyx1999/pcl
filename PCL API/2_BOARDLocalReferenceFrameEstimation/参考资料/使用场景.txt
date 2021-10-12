@@ -1,7 +1,0 @@
-pcl::BOARDLocalReferenceFrameEstimation<PointType,NormalType,RFType> rf_est;
-rf_est.setFindHoles(true);
-rf_est.setRadiusSearch(radius);
-rf_est.setInputCloud(cloud);
-rf_est.setInputNormals(normals);
-rf_est.setSearchSurface(surface);
-rf_est.compute(*output)

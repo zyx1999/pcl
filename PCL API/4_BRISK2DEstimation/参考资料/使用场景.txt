@@ -1,4 +1,0 @@
-pcl::BRISK2DEstimation<pcl::PointXYZ> brisk_est;
-brisk_est.setInputCloud(cloud);
-brisk_est.setKeypoints(keypoints);
-brisk_est.compute(*output)

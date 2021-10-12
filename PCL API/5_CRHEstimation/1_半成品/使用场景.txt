@@ -1,6 +1,0 @@
-pcl::CRHEstimation<pcl::PointXYZ, pcl::Normal, pcl::Histogram<90> > crh_est;
-pcl::PointCloud<pcl::Histogram<90> >::Ptr output(new pcl::PointCloud<pcl::Histogram<90> >);
-crh_est.setInputCloud(cloud);
-crh_est.setInputNormals(normals);
-crh_est.setCentroid(centroid);
-crh_est.compute(*output);

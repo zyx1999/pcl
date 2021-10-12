@@ -1,4 +1,0 @@
-ShapeContext Descriptor
-
-p：表示点云中的某一点
-N：表示p的表面法线
