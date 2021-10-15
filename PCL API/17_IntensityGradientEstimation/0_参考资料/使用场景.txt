@@ -1,0 +1,6 @@
+pcl::IntensityGradientEstimation<pcl::PointXYZI, pcl::Normal, pcl::IntensityGradient,pcl::common::IntensityFieldAccessor<pcl::PointXYZI> > ig_est;
+pcl::PointCloud<pcl::IntensityGradient>::Ptr output(new pcl::PointCloud<pcl::IntensityGradient>);
+ig_est.setInputCloud(cloudIntensity);
+ig_est.setInputNormals(normals);
+ig_est.setRadiusSearch(radius);
+ig_est.compute(*output);
