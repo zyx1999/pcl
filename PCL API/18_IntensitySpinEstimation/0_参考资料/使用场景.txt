@@ -1,0 +1,5 @@
+pcl::IntensitySpinEstimation<PointInT, PointOutT> is_est;
+pcl::PointCloud<PointOutT>::Ptr output;
+ig_est.setInputCloud(cloud);
+ig_est.setRadiusSearch(radius);
+ig_est.compute(*output);
