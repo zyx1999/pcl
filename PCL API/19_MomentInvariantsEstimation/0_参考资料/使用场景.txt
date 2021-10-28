@@ -1,0 +1,6 @@
+pcl::MomentInvariantsEstimation<PointInT, PointOutT> mt_est;
+pcl::PointCloud<PointOutT>::Ptr output;
+mt_est.setInputCloud(cloud);
+mt_est.setRadiusSearch(radius);
+mt.est.setSearchSurface(surface);
+mt_est.compute(*output);
