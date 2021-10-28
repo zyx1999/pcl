@@ -1,0 +1,1 @@
+实现了与归一化对齐径向特征NARF(Normal Aligned Radial Features)描述子相关的计算，NARF主要是针对三维场景中对象的识别而提出的描述子。

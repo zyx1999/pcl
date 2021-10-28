@@ -1,0 +1,18 @@
+compute
+	->computeFeature
+		->extractFromRangeImageAndAddToList(narf.cpp:357)
+			->calculate3DPoint(range_image.hpp:577)
+				->calculate3DPoint(range_image.hpp:564)
+					->getAnglesFromImagePoint(range_image.hpp:602)
+			->extractFromRangeImageAndAddToList(narf.cpp:335)
+				->extractFromRangeImage(narf.cpp:244)
+					->getNormalBasedUprightTransformation(range_image.hpp:658)
+					->extractFromRangeImage(narf.cpp:203)
+						->getInterpolatedSurfaceProjection(range_image.hpp:457)
+						->getBlurredSurfacePatch(narf.cpp:273)
+						->extractDescriptor(narf.cpp:134)
+							->getNoOfBeamPoints(narf.h:149)
+				->getRotations(narf.cpp:440)
+				->getRotatedVersions(narf.cpp:495)
+					->extractDescriptor(narf.cpp:134)
+						->getNoOfBeamPoints(narf.h:149)
